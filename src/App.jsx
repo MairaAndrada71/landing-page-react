@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
@@ -7,24 +7,13 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
 
       <main>
-        <section id="inicio" className="hero">
-          <Hero />
-        </section>
-
-        <section id="services" className="services">
-          <Services />
-        </section>
-
-        <section id="projects">
-          <Projects />
-        </section>
-
-        <section id="contact">
-          <Contact />
-        </section>
+        <Hero />
+        <Services />
+        <Projects />
+        <Contact />
       </main>
     </>
   );

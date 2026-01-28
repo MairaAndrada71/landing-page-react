@@ -5,7 +5,7 @@ import heroImg from "../assets/hero.png";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="inicio" className="hero">
       <div className="container">
         <motion.div
           className="hero-content"

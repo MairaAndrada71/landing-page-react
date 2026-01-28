@@ -3,7 +3,8 @@ import { fadeUp, staggerContainer } from "../animations/variants";
 
 function Services() {
   return (
-    <div className="container">
+    <section id="services">
+      <div className="container">
       <h2>Servicios</h2>
 
       <motion.div
@@ -32,6 +33,7 @@ function Services() {
         </motion.div>
       </motion.div>
     </div>
+    </section>
   );
 }
 

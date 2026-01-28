@@ -356,3 +356,10 @@ h2 {
   color: #16a34a;
   margin-top: 0.5rem;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
