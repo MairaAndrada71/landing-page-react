@@ -5,6 +5,7 @@ import projects from "./projectsData";
 
 function Projects() {
   return (
+    <section id="projects">
     <div className="container">
       <h2>Proyectos</h2>
 
@@ -22,6 +23,7 @@ function Projects() {
         ))}
       </motion.div>
     </div>
+    </section>
   );
 }
 

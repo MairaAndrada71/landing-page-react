@@ -1,7 +1,13 @@
 function ProjectCard({ title, description, image }) {
   return (
     <article className="project-card">
-      <img src={image} alt={title} />
+      <div className="project-image">
+        <img
+          src={image}
+          alt={title}
+          loading="lazy"
+        />
+      </div>
 
       <div className="project-info">
         <h3>{title}</h3>
@@ -16,3 +22,4 @@ function ProjectCard({ title, description, image }) {
 }
 
 export default ProjectCard;
+
